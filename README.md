@@ -7,6 +7,6 @@ The data is provided in .csv format. This code reads, cleans and visualizes the 
 
 Outcomes of the stop and searches and, age range and genders of the people who were subjected to the stop searches are visualized.
 
-main.py is used to call functions and display the charts.
+main.py is used to call functions from source code files and display the charts.
 
 The charts can be found in charts folder in .png format.

@@ -1,6 +1,6 @@
-from outcomes_charts import pie_chart, bar_chart, scatter
-from genders import genders_chart
-from ages import age_chart
+from src.outcomes_charts import pie_chart, bar_chart, scatter
+from src.genders import genders_chart
+from src.ages import age_chart
 
 file_name = input("Please enter the name of the file you would like to visualize: ").lower()
 
