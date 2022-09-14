@@ -18,7 +18,7 @@ def pie_chart(data):
     for row in csvreader:
         if row[12] != "Outcome":
             if not row[12] in list(outcome_count.keys()):
-                outcome_count[row[12]] = 0
+                outcome_count[row[12]] = 1
             else:
                 outcome_count[row[12]] += 1
 
